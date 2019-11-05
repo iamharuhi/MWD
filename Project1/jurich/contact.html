@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!David Jurich MWD110 19739223->
+<html>
+	<head><title>Contact</title>
+        <p><small>Click <a href="index.html">here</a> to return to main page</small></p>
+		<meta charset="utf-8">
+        <style>
+        body { background-color: #aeafaf    ;
+					}
+			header { background-color: #aeafaf;
+					color:#962fbc;
+					}
+		body {font-family: "Helvetica Neue", Arial, sans-serif;
+		color: #333333; margin-top: 1%; margin-right: 5%; margin-left: 5%;}
+        </style>
+	</head>
+	<body>
+			<header><h1>Contact Request</h1>
+			</header>
+			<main>
+				<form name="login" method="post" action="http://webdevbasics.net/scripts/demo.php">
+					<fieldset>
+						<legend>Personal Info</legend>
+						<label>
+							First Name: 
+							<input type="text" name="firstname" required>
+						</label>
+						<br><br>
+						<label>
+							Last Name:
+							<input type="text" name="lastname" required>
+						</label>
+						<br><br>
+						<label>
+							Email: 
+							<input type="email" name="myemail" required>
+						</label>
+						<br><br>
+						<label>
+							Phone Number (optional): 
+							<input type="phone" name="phone">
+						</label>
+					</fieldset>
+                    <br><br>
+					<fieldset>
+						<legend>Requested Services</legend>
+						<label>
+							Package Choice: 
+							<select size="1" name="packages">
+								<option value="startup">Small Startup</option>
+								<option value="freelance">Freelance Projects</option>
+								<option value="domination">Utter World Domination</option>
+								<option value="rickity">Portal Gun</option>
+								<option value="misc">Other</option>
+							</select>
+						</label>
+                    </fieldset>
+						<br><br>
+                    <fieldset>
+                    <legend>Additional Information</legend>
+						<label>
+							Budget
+							<input type="number" name="budget" min="0" max="1000000">
+						</label>
+						<br><br>
+						<label>
+							How soon can we start?: 
+							<input type="text" name="time" list="time">
+								<datalist id="time">
+									<option value="No preference">
+									<option value="Today">
+									<option value="1-3 Months">
+									<option value="Upon securing funding">
+								</datalist>
+						</label>
+						<br><br>
+						<label>
+							Favorite color (Mine is Green!): 
+							<input type="color" name="mycolor">
+						</label>
+					</fieldset>
+					<br>
+                    <small>Please allow for up to 5 business days for a response.</small>
+					<input type="submit" name="submit" value="Submit">
+					<input type="reset" name="reset" value="Clear">
+				</form>
+			</main>
+	</body>
+</html>

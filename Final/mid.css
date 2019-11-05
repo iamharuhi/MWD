@@ -1,0 +1,15 @@
+#wrapper	{ width: 85%;
+}
+
+#content	{ flex-direction: column;
+}
+.responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+}
+nav li 	{ display: inline-block;
+		  width: 25%;
+}
+nav a	{ border: 2px outset #000;
+		  padding: .75em;
+}

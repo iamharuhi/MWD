@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<Title>iMD Telecom, Order</Title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="small.css" media="only screen and (max-width: 700px) ">
+		<link rel="stylesheet" type="text/css" href="mid.css"  media="only screen and (min-width: 700px) and (max-width: 1200px)">
+		<link rel="stylesheet" type="text/css" href="print.css" media="print">
+	</head>
+	<body>
+		<header>
+			<div align="center">
+				<h1>iMacdanny Telecom</h1>
+			</div>
+		</header>
+		<nav>
+			<hr>
+			<ul class="nav">
+				<li><a href="index.html">Home</a>
+				<li><a href="order.html">Order</a>
+				<li><a href="contact.html">Contact Us</a>
+			</ul>
+			<hr>
+		</nav>
+		<main>
+			<div align="center">
+			<a href="index.html"><img src="images/banner.jpg" width="80%" alt="Plane 
+Banner"></a>
+			</div>
+			<h2>Order Services</h2>
+			<em>Best in class networking</em>
+			<p>Fill out the form below to order services from us</p>
+			<form>
+				Name:<br>
+				<input type="text" name="name"><br>
+				Email:<br>
+				<input type="email" name="email"><br>
+				Phone:<br>
+				<input type="tel" name="phone"><br>
+				Address:<br>
+				<input type="text" name="address"><br>
+				Zip Code:<br>
+				<input type="text" name="zip"><br>
+				Service Desired<br>
+				<select name="service">
+					<option value="Networking">Networking</option>
+					<option value="Fibre Internet">Fibre Internet</option>
+					<option value="LTE Internet">LTE Internet</option>
+					<option value="Satellite Internet">Satellite Internet</option>
+					<option value="Shortwave Internet">Shortwave Internet</option>
+				</select><br>
+				Comments:<br>
+				<textarea name="comments" rows="10" cols="30">
+				</textarea><br>
+				<input type="button" onclick="alert('Information Recieved')" value="Submit"> 
+			</form>
+		</main>
+		<footer>
+			<h6> © 2019 Naomi Calvi</h6>
+		</footer>
+	</body>
+</html>

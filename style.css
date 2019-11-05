@@ -1,0 +1,38 @@
+body	{ font-family: "Helvetica Neue", Arial, sans-serif;
+	  color: #333333;
+	  margin-top: 1%;
+	  margin-right: 5%;
+	  margin-left: 5%;
+}
+header	{ font-family: ProductSans;
+	  font-size: 150%;
+}
+#content	{ display: flex;
+}
+nav ul	{ list-style-type: none;
+	  margin: 2px;
+	  padding: 2px;
+	  text-align: center;
+}
+.nav li	{ display: inline;
+}
+.nav li a { color: black;
+	    display: inline-block;
+	    text-align: center;
+	    padding: 10px 12px;
+	    text-decoration: none;
+	    background-color: #99e6ee;
+	    border-radius: 9px;
+}
+hr	{ opacity: 0.4;
+	  width: 90%;
+}
+@font-face { font-family: ProductSans;
+	     src: url(productsans.ttf);  
+}
+
+@media only screen and (max-width: 600px){
+	body{margin-left: 1%;
+	margin-right: 1%;
+	}
+}
